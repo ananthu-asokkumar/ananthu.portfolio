@@ -20,43 +20,7 @@ function Skills() {
       <SkillsStyled>
         <Title title={"My Skills"} span={"my skills"} />
         <InnerLayout>
-          {/* <div className="skills"> */}
-            {/* <ProgressBar 
-                            title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
-                        <ProgressBar 
-                            title={'MongoDB'}
-                            width={'60%'}
-                            text={'60%'}
-                        />
-                        <ProgressBar 
-                            title={'Material UI'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'React JS'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'Node JS'}
-                            width={'75%'}
-                            text={'75%'}
-                        /> */}
-                     {/* <img src={html5} alt="" /> */}
+       
                 <Grid sx={{ width: "100% " }} container spacing={3} columns={16} >
                 <Grid item xs={2}>
                     

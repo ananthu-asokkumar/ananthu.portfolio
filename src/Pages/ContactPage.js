@@ -17,32 +17,6 @@ function ContactPage() {
             <Title title={'Contact'} span={'Contact'} />
             <ContactPageStyled >
             <InnerLayout className={'contact-section'}>
-                {/* <div className="left-content">
-                    <div className="contact-title">
-                        <h4>Get In Touch</h4>
-                    </div>
-                    <form  className="form">
-                        <div className="form-field">
-                            <label htmlFor="name"  >Enter your name*</label>
-                            <input type="text" id="name" />
-                        </div>
-                        <div className="form-field">
-                            <label htmlFor="email"  >Enter your email*</label>
-                            <input type="email" id="email" />
-                        </div>
-                        <div className="form-field">
-                            <label htmlFor="subject"  >Enter your subject</label>
-                            <input type="text" id="subject" />
-                        </div>
-                        <div className="form-field">
-                            <label htmlFor="text-area">Enter your Message*</label>
-                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                        </div>
-                        <div className="form-field f-button">
-                            <PrimaryButton title={'Send Email'} />
-                        </div>
-                    </form>
-                </div> */}
                 <div className="right-content">
                     <ContactItem title={'Phone'} icon={phone} cont1={'+91- 9497079246'} cont2={''} />
                     <ContactItem title={'Email'} icon={email} cont1={'ananthuasokkumar@gmail.com'} cont2={''} />

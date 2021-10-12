@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
-// import Particle from '../Components/Particle';
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function HomePage() {
