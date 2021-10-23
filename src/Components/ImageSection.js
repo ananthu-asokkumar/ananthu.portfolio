@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
 import resume from '../img/resume.jpg';
-import pic from '../img/pic.jpg'
+import aboutpic from '../img/aboutpic.PNG'
 import PrimaryButton from './PrimaryButton';
+import homepage from '../img/homepage.gif'
 
 function ImageSection() {
     return (
       <ImageSectionStyled>
-        <div className="left-content">
-          <img src={pic} alt="" />
+        <div className="left-content" >
+          <img src={homepage} alt="" height="390px"/>
         </div>
         <div className="right-content">
           <h4>
@@ -28,14 +29,14 @@ function ImageSection() {
               <p>Location</p>
             </div>
             <div className="info">
-              <p>: Ananthu Aokkumar</p>
+              <p>: Ananthu Asokkumar</p>
               <p>: Indian</p>
               <p>: Kochi,Kerala</p>
             </div>
           </div>
           <a
             href="https://drive.google.com/file/d/1SqQg7yiyHIQd-Ho-8-getsPwyjg21i1w/view?usp=sharing"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <PrimaryButton title={"Resume"} />
           </a>
@@ -58,7 +59,7 @@ const ImageSectionStyled = styled.div`
         width: 100%;
         img{
             width: 95%;
-            object-fit: cover;
+            object-fit: content;
         }
     }
     .right-content{

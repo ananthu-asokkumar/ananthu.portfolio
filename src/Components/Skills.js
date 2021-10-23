@@ -20,74 +20,87 @@ function Skills() {
       <SkillsStyled>
         <Title title={"My Skills"} span={"my skills"} />
         <InnerLayout>
-       
-                <Grid sx={{ width: "100% " }} container spacing={3} columns={16} >
-                <Grid item xs={2}>
-                    
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={html5} alt="" height="120px" width="120px" />
-                        <Typography >HTML5</Typography>
-                   </Card>
-                </Grid>
-                <Grid item xs={4} sx={{width:"50%"}}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={css3} alt="" height="120px" width="120px" />
-                        <Typography >CSS3</Typography>
-                   </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={javascript} alt="" height="120px" width="120px" />
-                        <Typography >JavaScript</Typography>
-                   </Card>
-                    </Grid>
-                <Grid item xs={2}>
-                    
-                </Grid>
-                    
-
-                <Grid item xs={2}>
-                    
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={nodejs} alt="" height="120px" width="120px" />
-                        <Typography >Node Js</Typography>
-                </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={mongodb} alt="" height="120px" width="120px" />
-                        <Typography >mongoDB</Typography>
-                   </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={react} alt="" height="120px" width="120px" />
-                        <Typography >React</Typography>
-                        </Card>
-                    </Grid>
-                <Grid item xs={2}>
-                    
-                    </Grid>
-                <Grid item xs={2}>
-                    
-                </Grid>
-                <Grid  item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={redux} alt="" height="120px" width="120px" />
-                        <Typography >Redux</Typography>
-                   </Card>
-                </Grid>
-                <Grid item xs={4}>
-                    <Card className="skillIcon" sx={{width:"150px",textAlign:"center",height:"160px"}}>
-                        <img src={materialui} alt="" height="120px" width="120px" />
-                        <Typography >Material UI</Typography>
-                   </Card>
-                </Grid>     
+          <Grid sx={{ width: "100% " }} container spacing={3} columns={24}>
+            {/* <Grid item xs={2} md={2} lg={2}></Grid> */}
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={html5} alt="" height="120px" width="120px" />
+                <Typography>HTML5</Typography>
+              </Card>
             </Grid>
+            <Grid item xs={6} md={8} lg={6} sx={{ width: "50%" }}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={css3} alt="" height="120px" width="120px" />
+                <Typography>CSS3</Typography>
+              </Card>
+            </Grid>
+            {/* <Grid item xs={0} md={0} lg={2}></Grid> */}
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={javascript} alt="" height="120px" width="120px" />
+                <Typography>JavaScript</Typography>
+              </Card>
+            </Grid>
+            {/* <Grid item xs={0} md={0} lg={2}></Grid> */}
+
+            {/* <Grid item xs={0} md={0} lg={2}></Grid> */}
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={nodejs} alt="" height="120px" width="120px" />
+                <Typography>Node Js</Typography>
+              </Card>
+            </Grid>
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={mongodb} alt="" height="120px" width="120px" />
+                <Typography>mongoDB</Typography>
+              </Card>
+            </Grid>
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={react} alt="" height="120px" width="120px" />
+                <Typography>React</Typography>
+              </Card>
+            </Grid>
+            {/* <Grid item xs={0} lg={2}></Grid> */}
+            {/* <Grid item xs={0} lg={2}></Grid> */}
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={redux} alt="" height="120px" width="120px" />
+                <Typography>Redux</Typography>
+              </Card>
+            </Grid>
+            <Grid item xs={12} md={8} lg={6}>
+              <Card
+                className="skillIcon"
+                sx={{ width: "150px", textAlign: "center", height: "160px" }}
+              >
+                <img src={materialui} alt="" height="120px" width="120px" />
+                <Typography>Material UI</Typography>
+              </Card>
+            </Grid>
+          </Grid>
           {/* </div> */}
         </InnerLayout>
       </SkillsStyled>

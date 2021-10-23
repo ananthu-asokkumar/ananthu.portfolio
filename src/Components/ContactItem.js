@@ -52,6 +52,7 @@ const ContactItemStyled = styled.div`
         }
         p{
             padding: .1rem 0;
+            font-size: .9rem;
         }
     }
 `;

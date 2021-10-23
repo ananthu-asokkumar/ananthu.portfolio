@@ -12,16 +12,28 @@ function BlogsPage() {
                 <InnerLayout className={'blog'}>
                     {
                         blogs.map((blog)=>{
-                            return <div key={blog.id} className={'blog-item'}>
+                            return (
+                              <div key={blog.id} className={"blog-item"}>
                                 <div className="image">
-                                   <a href="https://medium.com/@ananthuasokkumar/joy-of-my-first-react-project-ixigo-com-clone-fe5416ec57d"><img src={blog.image} alt=""/></a> 
+                                  <a
+                                    href="https://medium.com/@ananthuasokkumar/joy-of-my-first-react-project-ixigo-com-clone-fe5416ec57d"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    <img src={blog.image} alt="" />
+                                  </a>
                                 </div>
                                 <div className="title">
-                                    <a href={blog.link}>
-                                        {blog.title}
-                                    </a>
+                                  <a
+                                    href="https://medium.com/@ananthuasokkumar/joy-of-my-first-react-project-ixigo-com-clone-fe5416ec57d"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                  >
+                                    {blog.title}
+                                  </a>
                                 </div>
-                            </div>
+                              </div>
+                            );
                         })
                     }
                 </InnerLayout>
